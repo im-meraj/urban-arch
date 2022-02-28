@@ -9,17 +9,13 @@ const Header = () => {
     <header>
       <div className="logo">
         <img
-          src="https://res.cloudinary.com/immeraj/image/upload/v1646047376/urbanhexad_assets/UrbanLogo2_x1n6ry.svg"
+          src="https://res.cloudinary.com/immeraj/image/upload/v1646054579/urbanhexad_assets/Group_3_mhxjew.png"
           alt=""
         />
       </div>
-        <Hamburger
-          className="hamburger-icon"
-          toggled={isOpen}
-          toggle={setOpen}
-        />
+      <Hamburger className="hamburger-icon" toggled={isOpen} toggle={setOpen} />
       <nav>
-        <ul className={`nav-links${isOpen ? ' showMenu' : ''}`}>
+        <ul className={`nav-links${isOpen ? " showMenu" : ""}`}>
           <li className="link-item">
             <Link className="link" to="/">
               Home
