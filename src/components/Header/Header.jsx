@@ -23,7 +23,7 @@ const Header = () => {
           </li>
           <li className="link-item">
             <Link className="link" to="/about">
-              About
+              About Us
             </Link>
           </li>
           <li className="link-item">
@@ -33,7 +33,7 @@ const Header = () => {
           </li>
           <li className="link-item">
             <Link className="link" to="/contact">
-              Contact
+              Contact Us
             </Link>
           </li>
         </ul>

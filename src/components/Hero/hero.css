@@ -1,0 +1,122 @@
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    margin: 0 auto;
+}
+
+.hero__text__container {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    margin-top: 16rem;
+    margin-left: 10rem;
+}
+
+.hero__heading-primary {
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode',
+    'Lucida Grande',
+    'Lucida Sans',
+    Arial,
+    sans-serif;
+    font-size: 8.8rem;
+    line-height: 1.2;
+    color: #244d4d;
+}
+
+.hero__heading-secondary {
+    font-size: 2.4rem;
+    margin-top: 4.8rem;
+    color: #244d4d;
+}
+
+.btn-primary {
+    background-color: #244d4d;
+    border-color: #244d4d;
+    color: #ffffff;
+    padding: 1.5rem 4rem;
+    font-size: 1.8rem;
+    margin-top: 4.8rem;
+    cursor: pointer;
+}
+
+.hero__image__container {
+    display: flex;
+    align-self: flex-end;
+    width: 50vw;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero__container {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .hero__text__container {
+        width: 100%;
+        margin: 0;
+        padding: 4rem 0;
+        padding-left: 8rem;
+        margin-top: 2rem;
+    }
+
+    .hero__heading-primary {
+        color: #244d4d;
+        font-size: 8.8rem;
+    }
+
+    .hero__heading-secondary {
+        color: #244d4d;
+        margin-top: 4rem;
+        font-size: 2.8rem;
+    }
+
+    .hero__image__container {
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero__container {
+        height: 92vh;
+        margin: 0;
+        justify-content: space-between;
+    }
+
+    .hero__text__container {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding: 2rem;
+        margin: 0;
+        margin-top: 4rem;
+        align-items: flex-start;
+        padding: 4rem;
+    }
+
+    .hero__heading-primary {
+        color: #244d4d;
+        font-size: 5.8rem;
+    }
+
+    .hero__heading-secondary {
+        color: #244d4d;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .hero__image__container {
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+}

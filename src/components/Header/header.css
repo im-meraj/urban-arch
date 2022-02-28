@@ -1,22 +1,17 @@
 header {
     display: flex;
-    max-width: 90vw;
+    height: 15vh;
     margin: 0 auto;
     /* background-color: aquamarine; */
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 2rem 8rem;
 }
 
 .logo {
     width: 35rem;
     height: 8rem;
     /* background-color: beige; */
-}
-
-nav {
-    width: 50rem;
-    /* background-color: pink; */
 }
 
 img {
@@ -38,7 +33,7 @@ li {
 }
 
 .link {
-    color: #000;
+    color: #244d4d;
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 700;
@@ -46,7 +41,7 @@ li {
 }
 
 .link:hover {
-    color: #244d4d;
+    color: #000000;
     border-bottom: 2px solid #244d4d;
 }
 
@@ -58,11 +53,6 @@ li {
     .logo {
         width: 30rem;
         height: 7rem;
-    }
-
-    nav {
-        width: 40rem;
-        /* background-color: pink; */
     }
 
     li {
@@ -80,12 +70,14 @@ li {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
+        height: auto;
+        padding: 4rem;
     }
 
     .logo {
-        width: 90%;
+        width: 70%;
         height: auto;
+        margin-bottom: 2rem;
     }
 
     nav {
@@ -113,7 +105,7 @@ li {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-
+        padding: 4rem;
     }
     .logo {
         width: 70%;
