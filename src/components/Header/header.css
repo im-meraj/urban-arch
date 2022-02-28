@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    max-width: 90vw;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    width: 35rem;
+    height: 8rem;
+    /* background-color: beige; */
+}
+
+nav {
+    width: 50rem;
+    /* background-color: pink; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 3rem;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #244d4d;
+    border-bottom: 2px solid #244d4d;
+}
+
+.hamburger-react {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 30rem;
+        height: 7rem;
+    }
+
+    nav {
+        width: 40rem;
+        /* background-color: pink; */
+    }
+
+    li {
+        margin: 0 2rem;
+    }
+
+    .hamburger-react {
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logo {
+        width: 90%;
+        height: auto;
+    }
+
+    nav {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    ul {
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    .hamburger-react {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .logo {
+        width: 70%;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .hamburger-react {
+        display: flex;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .nav-links.showMenu {
+        display: flex;
+        /* z-index: 99; */
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:320px) {
+    .logo {
+        width: 70%;
+    }
+
+    .link {
+        font-size: 1.3rem;
+    }
+}
