@@ -9,10 +9,10 @@ const Hero = () => {
             Great Architecture
           </h1>
           <p className="hero__heading-secondary">
-            One of the most trusted marketplace of
-            <br /> Architecture & Design in India
+            One of the most trusted and respected Architecture & Design <br />
+            studio in India
           </p>
-          <button className="btn btn-primary">View Project</button>
+          <button className="btn btn-primary">View our Projects</button>
         </div>
         <div className="hero__image__container">
           <img

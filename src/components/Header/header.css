@@ -115,7 +115,6 @@ li {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        width: 80%;
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -130,7 +129,19 @@ li {
 
     .nav-links.showMenu {
         display: flex;
+        animation: menu 0.5s ease-in-out forwards;
         /* z-index: 99; */
+    }
+
+    @keyframes menu {
+        from {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 
     li {
