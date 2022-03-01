@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-self: start;
-    margin-top: 16rem;
+    margin-top: 10rem;
     margin-left: 10rem;
 }
 
@@ -114,18 +114,24 @@
         margin: 0;
         align-items: flex-start;
         padding: 0 4rem;
-        padding-top: 8rem;
+        padding-top: 4rem;
     }
 
     .hero__heading-primary {
         color: #244d4d;
-        font-size: 5.8rem;
+        font-size: 3.6rem;
     }
 
     .hero__heading-secondary {
         color: #244d4d;
         margin-top: 2rem;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
+    }
+
+    .btn-primary {
+        padding: 1.5rem 3rem;
+        font-size: 1.4rem;
+        margin-top: 3.8rem;
     }
 
     .hero__image__container {
