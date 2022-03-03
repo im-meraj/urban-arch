@@ -1,5 +1,6 @@
 .white__container {
     width: 100vw;
+    height: 100vh;
     background-color: #fefaf6;
 }
 
@@ -22,7 +23,7 @@
     width: 100%;
 }
 
-.section1__head {
+.section1__heading {
     font-family: 'Trebuchet MS',
         'Lucida Sans Unicode',
         'Lucida Grande',
@@ -70,7 +71,7 @@
     color: #244d4d;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (max-width: 1024px) {
     .section1__container {
         width: 100%;
         margin: 0 auto;
@@ -93,7 +94,7 @@
         width: 100%;
     }
 
-    .section1__head {
+    .section1__heading {
         font-size: 4.8rem;
     }
 
@@ -110,42 +111,50 @@
     }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 480px) {
+    .white__container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fefaf6;
+    }
+
     .section1__container {
-        width: 80vw;
+        width: 100vw;
         margin: 0 auto;
         flex-direction: column;
     }
 
     .left__img {
-        height: 40rem;
-        width: 30rem;
+        height: 30rem;
+        width: 20rem;
     }
 
-    .section1__head {
-        font-size: 4.6rem;
+    .section1__heading {
+        font-size: 3.2rem;
         text-align: center;
     }
 
     .section1__text {
-        font-size: 1.4rem;
+        font-size: 1rem;
         text-align: center;
     }
 
     .lgText {
-        font-size: 3.6rem;
+        font-size: 2rem;
     }
 
     .smText {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
 
     .info__item {
-        margin-right: 10rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
     }
 
     .section1__info {
-        margin-left: 10rem;
-        justify-content: flex-end;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        justify-content: space-evenly;
     }
 }

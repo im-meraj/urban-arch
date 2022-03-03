@@ -15,7 +15,7 @@ const Section1 = () => {
         </div>
         <div className="section1__right">
           <div className="right__text__container">
-            <h2 className="section1__head">
+            <h2 className="section1__heading">
               We Are The Leader
               <br /> in The Architecture
             </h2>
