@@ -107,6 +107,7 @@ li {
         justify-content: space-between;
         margin: 4rem;
         margin-bottom: 0;
+        padding: 0;
     }
     .logo {
         width: 70%;
