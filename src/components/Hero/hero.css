@@ -126,7 +126,7 @@
 
 @media (max-width: 480px) {
     .hero__container {
-        /* height: 92vh; */
+        height: 90vh;
         margin: 0;
         justify-content: space-between;
     }
@@ -139,33 +139,33 @@
         align-items: flex-start;
         padding: 0 4rem;
         padding-left: 5rem;
-        padding-top: 4rem;
+        padding-top: 10rem;
     }
 
     .hero__heading-primary {
         color: #244d4d;
-        font-size: 4.4rem;
+        font-size: 5.6rem;
     }
 
     .hero__heading-secondary {
         color: #244d4d;
-        margin-top: 2rem;
-        font-size: 1.4rem;
+        margin-top: 3rem;
+        font-size: 1.8rem;
     }
 
     .btn-primary {
         padding: 1.5rem 3rem;
-        font-size: 1.4rem;
-        margin-top: 3.8rem;
+        font-size: 1.6rem;
+        margin-top: 6rem;
     }
 
     .hero__image__container {
-        width: 100%;
-        /* margin-bottom: 2rem; */
+        width: 100vw;
+        margin-bottom: 2rem;
     }
 
     .hero__image {
         padding-left: 5rem;
-        padding-bottom: 15rem;
+        /* padding-bottom: 15rem; */
     }
 }
