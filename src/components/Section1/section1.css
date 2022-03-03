@@ -124,27 +124,47 @@
         flex-direction: column;
     }
 
+    .section1__left {
+        width: auto;
+        height: auto;
+    }
+
     .left__img {
-        height: 35rem;
-        width: 25rem;
+        height: 50rem;
+        width: 40rem;
+    }
+
+    .right__text__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .section1__heading {
-        font-size: 3.2rem;
+        font-size: 4rem;
         text-align: center;
+        margin-bottom: 2rem;
     }
 
     .section1__text {
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: center;
     }
 
     .lgText {
-        font-size: 2rem;
+        font-size: 2.8rem;
+        margin-bottom: 1rem;
     }
 
     .smText {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .section1__info {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
     }
 
     .info__item {
@@ -152,9 +172,4 @@
         margin-left: 1rem;
     }
 
-    .section1__info {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        justify-content: space-evenly;
-    }
 }
