@@ -94,6 +94,15 @@
         margin: 2rem 0;
     }
 
+    .img__container img {
+        width: 30rem;
+        height: 40rem;
+    }
+
+    .right__container {
+        margin: 2rem 0;
+    }
+
     .text__container {
         padding: 20rem 3rem;
     }
